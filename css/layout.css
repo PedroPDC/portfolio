@@ -48,6 +48,7 @@ body {
 .portfolio-header-image {
   width: 100%;
   height: auto;
+  border-radius: 50px;
 }
 
 #portfolio-header-text-container {
