@@ -58,6 +58,16 @@ body {
   flex-basis: 50%;
 }
 
+.button-container {
+  display: flex;
+  gap: 25px; /* Espaço entre os botões */
+}
+
+.right-arrow-icon, .download-icon {
+  width: 16px;
+  height: 16px;
+}
+
 
 
 
@@ -219,6 +229,3 @@ body {
     max-width: 100%;
   }
 }
-
-
-
