@@ -1,0 +1,228 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../../assets/images/Frame_132.png" />
+     <title>Análise dos Movimentos Migratórios | Pedro Paulo Dantas Costa</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/typography.css">
+    <link rel="stylesheet" href="../../css/utilities.css">
+
+		<script defer src="../../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../../">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Pedro | Data & BI</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:0901dantaspedro@gmail.com">
+          <span class="button-text">Contato</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Panorama Histórico do Brasileirão: Estatísticas, Confrontos e Disciplina em Duas Décadas de Competição (2003-2023).</div>
+        <div class="body-text">Mergulhe em duas décadas de história do Campeonato Brasileiro! Este projeto apresenta uma análise completa da principal competição nacional, revelando padrões e detalhes sobre vitórias, derrotas, gols, disciplina e confrontos históricos entre os clubes. Com visualizações interativas e dados organizados, você poderá explorar o desempenho dos times, identificar os atletas mais decisivos e compreender o comportamento disciplinar das equipes ao longo dos anos. Um retrato fiel da evolução do futebol brasileiro entre 2003 e 2023.</div>
+        <!--  <image class="project-header-image" src="../assets/images/dash_Eleicoes.PNG"> -->
+        <iframe title="AnaliseBrasileirao" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiNTk1ODgyMTUtZTJmYS00ZmMxLTlhYjAtODY1ZDA3MmNhZWQxIiwidCI6IjYxZDFjMWI0LWYzMGYtNGY4Ny05NzA5LTYwOGUyMWVjYjI3MCJ9" frameborder="0" allowFullScreen="true"></iframe>
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Detalhes do Projeto</div>
+        <div class="project-details-content">
+          <div class="body-text">Ao longo deste projeto, realizei uma análise completa sobre o Campeonato Brasileiro entre os anos de 2003 a 2023, com o objetivo de extrair resultados interessantes a partir de um grande volume de dados esportivos. A jornada começou com a exploração e manipulação de dados por meio de <b>queries SQL</b>, onde desenvolvi perguntas de negócio como: <i>Quais os times com maior número de vitórias? Quais atletas marcaram mais gols de pênalti? Como evoluiu a disciplina dos clubes ao longo dos anos?</i> As respostas geradas a partir dessas queries serviram de base para a construção de uma <strong>apresentação com storytelling</strong>, estruturando os achados de forma lógica e visualmente atrativa.</div>
+          <div class="body-text">Posteriormente, levei essa análise para um novo nível através do <b>Power BI</b>, criando um <b>dashboard interativo e visual</b> com foco em facilitar a compreensão dos dados por qualquer tipo de usuário. O processo envolveu diversas etapas do ciclo de dados: desde a <b>modelagem relacional</b> entre diferentes tabelas, até o <b>tratamento e limpeza dos dados no Power Query</b>, incluindo a criação de colunas auxiliares e ajustes de formatação.</div>
+          <div class="body-text">Utilizei <b>colunas calculadas</b> e <b>medidas DAX</b> para consolidar indicadores importantes como total de partidas, gols, cartões, média de posse de bola, entre outros. Também apliquei boas práticas de <b>modelagem de dados</b>, criando relacionamentos otimizados entre tabelas como <code>tb_brasileirao, tb_gols, tb_cartoes</code> e outras auxiliares que enriqueceram a análise, como a tabela de Arenas e Jogadores.</div>
+          <div class="body-text">
+            O resultado final foi dividido em três páginas principais: <br><br>
+            • <strong>Visão Geral</strong>, com foco em desempenho dos clubes, gols e posse de bola; <br>
+            • <strong>Análise Disciplinar</strong>, detalhando o comportamento dos atletas e clubes em relação a cartões; <br>
+            • <strong>Histórico de Confrontos</strong>, apresentando os resultados e locais das partidas disputadas.
+          </div>
+          <div class="body-text">
+            O dashboard conta com <strong>mapas interativos</strong>, <strong>gráficos</strong>, <strong>tabelas dinâmicas</strong> e uma <strong>barra lateral</strong> que facilita a navegação entre as páginas. Com ele, é possível visualizar os dados de forma <strong>clara, interativa e intuitiva</strong>, facilitando a análise até mesmo para quem não tem familiaridade com o tema. Esse projeto demonstra como a combinação entre <strong>SQL</strong> e <strong>Power BI</strong> pode transformar dados em representações <strong>visuais e acessíveis</strong> para todos.
+          </div>
+          <p>
+            Confira mais detalhes nos links abaixo:<br>
+            <a href="https://github.com/PedroPDC/projetos-sql/tree/main/projeto-dados-brasileirao" target="_blank">Repositório no GitHub</a><br>
+            <a href="https://medium.com/@pedropdc/projeto-análise-estatística-do-campeonato-brasileiro-2003-2023-com-sql-c72e4576a210" target="_blank">Artigo completo no Medium</a><br>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNTk1ODgyMTUtZTJmYS00ZmMxLTlhYjAtODY1ZDA3MmNhZWQxIiwidCI6IjYxZDFjMWI0LWYzMGYtNGY4Ny05NzA5LTYwOGUyMWVjYjI3MCJ9" target="_blank">Dashboard Completo</a><br>
+            <a href="https://www.linkedin.com/posts/pedro-paulo-dantas-costa_an%C3%A1lise-de-dados-campeonato-brasileiro-activity-7317886973149401088-PCmo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC33PN4BihsXuPKzh0_l4yHju9gcwI-Vkv4" target="_blank">Publicação no LinkedIn (SQL)</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Galeria de Imagens</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/projetobrasileiraopagina3.png" class="gallery-image">
+              <span class="image-caption">Exemplo de query desenvolvida no projeto.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/projetobrasileiraopagina4.png" class="gallery-image">
+              <span class="image-caption">Exemplo de query desenvolvida no projeto.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/projetobrasileiraopagina5.png" class="gallery-image">
+              <span class="image-caption">Exemplo de query desenvolvida no projeto.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/projetobrasileiraopagina6.png" class="gallery-image">
+              <span class="image-caption">Exemplo de query desenvolvida no projeto.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/projetobrasileiraopagina12.png" class="gallery-image">
+              <span class="image-caption">Exemplo de query desenvolvida no projeto.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/DashboardBrasileiraoPagina1.png" class="gallery-image">
+              <span class="image-caption">Design da página inicial do projeto no Power BI.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/DashboardBrasileiraoPagina2.png" class="gallery-image">
+              <span class="image-caption">Design da página de análise disciplinar do projeto no Power BI.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/DashboardBrasileiraoPagina3.png" class="gallery-image">
+              <span class="image-caption">Design da página do histórico de confrontos do projeto no Power BI.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/dashProntoPagina1.PNG" class="gallery-image">
+              <span class="image-caption">Resultado Final: Página - Visão Geral.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/dashProntoPagina2.PNG" class="gallery-image">
+              <span class="image-caption">Resultado Final: Página - Análise Disciplinar.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/img_projeto_brasileirao/dashProntoPagina3.PNG" class="gallery-image">
+              <span class="image-caption">Resultado Final: Página - Histórico de Confrontos.</span>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/pedro-paulo-dantas-costa/">
+        <image src="../../assets/icons/linkedin512.png" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://medium.com/@pedropdc/">
+        <image src="../../assets/icons/medium.png" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      
+      <a class="icon-link" href="https://github.com/PedroPDC/">
+        <image src="../../assets/icons/github.png" class="footer-icon"/>
+      </a>
+      
+      <a class="icon-link" href="https://wa.link/rgnxev">
+        <image src="../../assets/icons/whatsapp512.png" class="footer-icon"/>
+      </a>
+
+      <a class="icon-link" href="mailto:0901dantaspedro@gmail.com">
+        <image src="../../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
